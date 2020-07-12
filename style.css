@@ -1,0 +1,53 @@
+
+.Header {
+    background-color: skyblue;
+margin: 50px;
+   font-size: larger;
+    text-align: center;
+}
+.Header h1{
+    justify-content: center;
+    color: darkblue;
+    padding: 50px;
+    font-size: 100px;
+}
+.body p{
+  background-color: lightsteelblue ;
+    margin: 50px;
+    padding: 50px;
+    font-size: 30px;
+    color: darkred;
+}
+.body{
+    background-color: darkcyan;
+    display:flex ;
+    justify-content: start;
+}
+body{
+    background-color: dodgerblue ;
+}
+.img{
+   background-color: darkslateblue;
+   display: flex;
+   justify-content: center;
+   position: relative;
+}
+.img p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    color: rgb(34, 220, 226);
+    font-size: large;
+}
+
+.img:hover p{
+    opacity: 10;
+}
+.img:hover img{
+opacity: 0.33;
+
+}
+
+
